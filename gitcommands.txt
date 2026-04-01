@@ -1,0 +1,10 @@
+1.git init- git is initialixed
+2.git config --global user.name "gilbilesharmila93-spec" ---one time setup when project is created
+3.git config --global user.email "gilbilesharmila93@gmail.com" ---one time setup
+4.git remote add origin  https://github.com/gilbilesharmila93-spec/Automation_excercise_mar26 ---one time setup
+5.git status  --to check how many files r updated or new to push to git
+6.git add -A or git add .  for all files
+7.git add -u ---for only updated files
+8.git commit -m "First commit"  message must be written in quotes
+9.git push -u origin main(or master)----this push code from local(master) branch to remote repository(github main/master)
+10.git pull   
