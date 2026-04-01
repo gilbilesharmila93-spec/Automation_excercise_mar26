@@ -40,8 +40,9 @@ def driver_setup(request):
         chrome_options.add_argument("--headless")
         driver = webdriver.Chrome(options=chrome_options)
     else:
-        print("Invalid Browser")
-        driver = None
+        print("Lanching edge browser")
+        from selenium import webdriver
+        driver =webdriver.Edge()
     driver.maximize_window()
     request.cls.driver = driver
     yield driver

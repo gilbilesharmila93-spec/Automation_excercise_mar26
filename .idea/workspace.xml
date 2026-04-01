@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf27ff20-ee69-48f3-884d-0292ccf08b29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Practice_Automation_March26.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configurations/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Configurations/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/Login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObjects/Login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/test_verify_url_pass.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/test_verify_url_pass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testcases/test_login_001.py" beforeDir="false" afterPath="$PROJECT_DIR$/Testcases/test_login_001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/logger.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +21,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gilbilesharmila93-spec&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gilbilesharmila93-spec/Automation_excercise_mar26.git&quot;,
+    &quot;accountId&quot;: &quot;d7a02eb5-de3e-4aca-ab46-3356543fe51c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3AQuOHeTBrkqpUc2ld8Wi2gesJE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -30,8 +44,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.pytest in test_login_001.py.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "F:/Creedence sof testing/Daily notes/14.Automation testing/3.Pytest/Pytest_basics",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
   }
 }]]></component>

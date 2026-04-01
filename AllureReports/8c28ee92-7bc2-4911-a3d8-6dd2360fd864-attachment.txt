@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_login_001.py:29 Started test_verify_login_url verification
+[32mINFO    [0m root:test_login_001.py:32 driver title fetched successfully
