@@ -19,6 +19,7 @@ class Test_login_page_001:
     @pytest.mark.smoke
     @pytest.mark.flaky(reruns=1, rerun_delay=1)
     @pytest.mark.order(1)
+    # @pytest.mark.dependency(name="test_verify_login_url_001")##mark verify_url as uniquename so that other test depends on it.
     @allure.title("test_verify_login_url_001")
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.epic("Epic: Verify Login")
@@ -44,7 +45,7 @@ class Test_login_page_001:
     @pytest.mark.smoke
     @pytest.mark.flaky(reruns=1, rerun_delay=1)
     @pytest.mark.order(2)
-    @pytest.mark.dependency(name="test_verify_login_url_001")
+    # @pytest.mark.dependency(depends=["test_verify_login_url_001"])
     def test_verify_login_002(self,email,password,expected):
         self.driver.get(self.url)
         lp=Login_page(self.driver)
